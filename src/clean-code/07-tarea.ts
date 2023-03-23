@@ -16,6 +16,7 @@
             public placeholder: string,
         ) { }
     }
+
     class InputEvents {
 
         constructor() { }
@@ -36,7 +37,6 @@
             this.inputAttributes = new InputAttributes(value, placeholder);
             this.inputEvents = new InputEvents();
         }
-
     }
 
     //? Idea para la nueva clase InputElement
